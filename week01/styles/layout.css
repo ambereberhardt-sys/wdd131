@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+main{
+    padding: 1rem;
+}

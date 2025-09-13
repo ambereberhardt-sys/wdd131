@@ -38,13 +38,15 @@ Profile</a></li>
         <section class="card">
             <h2> About Me</h2>
             <img src="week01/images/Mommy and Lilly.jpg" alt="A picture of me and my daughter" width="200"> 
+            <img src="week01/images/Flag_of_Nevada.svg.png" alt="Nevada's state flag" width="300" class="right-image">
 
         <p>My name is Amber Tracy I'm a stay at home mom with three kids, my son who just turned five last month, my daughter who is two and a half, 
             and my newborn baby girl who was born last month  on the 26.I love spending time with my kids and when we have our family days where we 
             all do something together. My other two kids help out a lot with the new baby, and they love to play with her. I enjoy doing data base entry 
-            but I struggle with web developement. I was born in Callifornia but raised in Vegas. My husband and I have been married for seven years but we
+            but I struggle with web developement. I was born in Callifornia but raised in Vegas, so I call Nevada home. My husband and I have been married for seven years but we
             have known each other for ten years. I am a convert to the church and my husband is the reason for that. He introduced me to the church and after 
             a very long process, I finally got baptized, and now I have been a part of the church for eight years.</p>
+
         <h2>My Interests</h2>
         <ul>
             <li>reading</li>
@@ -52,15 +54,19 @@ Profile</a></li>
             <li>school</li>
             <li>camping</li>
         </ul>
+        </section>
     </main>
 
     <footer>
-        <p>
-
-            &copy; <span id="currentyear"></span> | Amber Tracy | United States
+        <p> &copy; <span id="year"></span> | Amber Tracy | United States
             </p>
             <p id="lastModified"></p>
 
     </footer>
+
+    <script>
+document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified
+    </script>
 </body>
 </html>

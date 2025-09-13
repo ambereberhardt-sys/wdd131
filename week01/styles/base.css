@@ -65,6 +65,13 @@ main h1 {
     padding: 1rem;
     margin-bottom: 0.5rem;
 }
+.right-image {
+    float: right;
+    width: 300px;
+    margin: 0 0 1rem 1rem;
+    border-radius: 10px;
+}
+
 footer {
     background: #003366;
     color: white;
